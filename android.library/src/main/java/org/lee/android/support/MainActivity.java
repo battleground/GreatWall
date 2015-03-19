@@ -1,12 +1,9 @@
-package org.lee.greatwall;
+package org.lee.android.support;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-
-import org.lee.android.support.Log;
-import org.lee.android.support.Toast;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -15,9 +12,9 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.init(this);
 
-        Toast.show("GreatWall");
+        Toast.init(this);
+        Toast.show("Android.Support");
         Log.anchor();
     }
 
